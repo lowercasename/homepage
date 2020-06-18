@@ -1,0 +1,107 @@
+body {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  line-height: 1.55;
+  color: #111;
+  overflow-y: scroll;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+body>aside {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  padding: 40px 0 20px 0;
+  background: rgba(255,255,255,0.95);
+  z-index: 100;
+}
+
+@media (min-width:768px) {
+  body>aside {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 1.15rem;
+  margin-top: 0;
+}
+
+a {
+  color: blue;
+}
+
+code,
+pre code {
+  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  background: #f4f4f4;
+  padding: .15rem .25rem;
+}
+
+pre code {
+  display: block;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+ul {
+  padding-left: 1rem;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  margin-bottom: 1.15rem;
+  font-weight: 700;
+  line-height: 1.55;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  position: relative;
+  left: -1rem;
+}
+
+h2::before {
+  content: '#';
+  color: #FF4136;
+  padding-right: 6px;
+}
+
+img {
+  width: max-content;
+  max-width: 800px;
+  display: block;
+}
+
+img + em {
+  padding-bottom: .25rem;
+  display: block;
+}
+
+.alert {
+  margin: 2rem 0;
+  color: #B10DC9;
+  font-weight: bold;
+}
+
+.post-link time {
+  display: block;
+  margin-bottom: 1rem;
+}
