@@ -1,5 +1,5 @@
 ---
-title: "You Should Write a Static Site Generator"
+title: "You should write a static site generator"
 date: 2020-06-18
 ---
 

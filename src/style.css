@@ -1,5 +1,6 @@
 body {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Fira Mono", SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
   line-height: 1.55;
   color: #111;
   overflow-y: scroll;
@@ -11,36 +12,49 @@ body {
   padding: 0 20px;
 }
 
-body>aside {
+body > header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-direction: column;
   position: sticky;
   top: 0;
-  padding: 40px 0 20px 0;
-  background: rgba(255,255,255,0.95);
+  padding: 40px 0 20px;
+  background: rgba(255, 255, 255, 0.95);
   z-index: 100;
 }
 
-@media (min-width:768px) {
-  body>aside {
+@media (min-width: 768px) {
+  body > header {
     flex-direction: row;
     align-items: center;
   }
 }
 
 main {
+  padding-top: 20px;
   flex: 1;
 }
 
-footer {
-  margin-bottom: 20px;
+footer::before {
+  content: "======================================================================================================================================";
+  overflow: hidden;
+  display: block;
+  padding-bottom: 1rem;
 }
 
-p {
-  margin-bottom: 1.15rem;
-  margin-top: 0;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+.alert,
+.post-link time {
+  display: block;
+  margin: 0 0 1.15rem;
 }
 
 a {
@@ -49,9 +63,10 @@ a {
 
 code,
 pre code {
-  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  font-family: "Fira Mono", SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
   background: #f4f4f4;
-  padding: .15rem .25rem;
+  padding: 0.15rem 0.25rem;
 }
 
 pre code {
@@ -64,44 +79,30 @@ ul {
   padding-left: 1rem;
 }
 
-h1, h2, h3, h4, h5 {
-  margin: 0;
-  margin-bottom: 1.15rem;
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: 700;
   line-height: 1.55;
   font-size: 1rem;
   text-transform: uppercase;
 }
 
-h2 {
-  position: relative;
-  left: -1rem;
-}
-
 h2::before {
-  content: '#';
-  color: #FF4136;
-  padding-right: 6px;
+  content: "#";
+  color: #ff4136;
+  padding-right: 0.33rem;
 }
 
 img {
-  width: max-content;
-  max-width: 800px;
-  display: block;
-}
-
-img + em {
-  padding-bottom: .25rem;
+  width: 800px;
+  max-width: 100%;
   display: block;
 }
 
 .alert {
-  margin: 2rem 0;
-  color: #B10DC9;
+  color: #b10dc9;
   font-weight: bold;
-}
-
-.post-link time {
-  display: block;
-  margin-bottom: 1rem;
 }

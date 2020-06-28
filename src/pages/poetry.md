@@ -34,3 +34,9 @@ Along with [Zoë Anderson](http://imaginaryink.tumblr.com/), [Aaron Kirby and Fi
 * _[Fur Alina](http://www.meniscus.org.au/Meniscus%20-%20Volume%202,%20Issue%202.pdf)_ (microfiction), in _[Meniscus](http://www.meniscus.org.au/)_.
 * _[Labyrinth](http://seizureonline.com/content/labyrinth/)_ and _[The Band That Played Forever](http://seizureonline.com/content/the-band-that-played-forever/)_ (microfiction), in _Flashers_.
 * _Arabeth_ and _Snow_ (short stories), in [Chalk Path Books'](http://chalkpathbooks.com/) anthologies - read an extract from _Arabeth_ [here](http://chalkpathbooks.com/arabeth/).
+
+### Zines
+
+Zines I've edited or written available online:
+
+* [Australian Gothic](/assets/Australian-Gothic-web.pdf) - an edited anthology of Tumblr writing in the Australian Gothic tag (2015)
