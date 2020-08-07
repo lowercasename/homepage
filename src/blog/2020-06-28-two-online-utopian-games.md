@@ -9,8 +9,12 @@ Over the last year, I've been really enjoying learning React, and I've recently 
 
 ![A screenshot of Loving Allness](/assets/loving-allness.png)
 
+----
+
 [**We Have the Square**](https://wehavethesquare.utopia.ac/) is a game co-designed by me and my utopian collaborator Katie Stone in our combined existence as [Utopian Acts](https://utopia.ac). It is a collaborative storytelling game inspired by occupation protest movements, asking players to think through the victories and challenges of creating an oppositional utopian community. While Loving Allness is poetic and evocative, We Have the Square is more open-ended, playing less like a game and more like a storytelling exercise.
 
 ![A screenshot of We Have the Square](/assets/we-have-the-square.png)
+
+----
 
 Get some friends together and play both of them!
