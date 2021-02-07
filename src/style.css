@@ -2,7 +2,7 @@ body {
   font-family: "Fira Mono", SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
   line-height: 1.55;
-  color: #111;
+  color: #1b1b1b;
   overflow-y: scroll;
   max-width: 960px;
   margin: 0 auto;
@@ -117,3 +117,37 @@ hr::before {
   overflow: hidden;
   display: block;
 }
+
+table {
+  margin: 1.15rem 0;
+  font-size:0.8rem;
+  text-align:left;
+  border-collapse:collapse;
+  overflow-x: auto;
+  max-width:100%;
+  display: block;
+ }
+
+ th {
+  background:#1b1b1b;
+  color:white;
+ }
+
+ tr {
+  border-bottom:1px solid #1b1b1b;
+ }
+
+ td:not(:last-of-type) {
+  border-right:1px solid #1b1b1b;
+ }
+
+ th, td {
+  padding:5px;
+   white-space: nowrap;
+ }
+ 
+ @media (min-width:768px) {
+  th, td {
+   white-space: normal;
+  }
+ }
