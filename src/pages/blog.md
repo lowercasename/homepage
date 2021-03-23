@@ -1,3 +1,5 @@
 ## Blog
 
-{{post_list}}
+<ul class="post-list">
+  {{post_list}}
+</ul>

@@ -41,6 +41,7 @@ footer::before {
   overflow: hidden;
   display: block;
   padding-bottom: 1rem;
+  white-space: nowrap;
 }
 
 p,
@@ -52,7 +53,7 @@ h5,
 h6,
 ul,
 .alert,
-.post-link time {
+.post-list time {
   display: block;
   margin: 0 0 1.15rem;
 }
@@ -116,7 +117,15 @@ hr::before {
   content: "-----------------------------------------------------------------------------------------------------";
   overflow: hidden;
   display: block;
+  white-space: nowrap;
 }
+
+ul.post-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Tables */
 
 table {
   margin: 1.15rem 0;
