@@ -38,4 +38,4 @@ Many years ago I made a webcomic called [Noire](http://noire.raphaelkabo.com) wi
 
 ## Hire me
 
-I'm currently available for freelance web design and development as well as more esoteric projects in Node.js, React, React Native, Python, and PHP. I'm particularly interested in projects with collective, communal, political, and utopian angles, and will be happy to help out gratis on projects by and for disabled people, people of colour, and queer folk. [Send me an email](mailto:raphaelkabo@gmail.com).
+I'm currently available for freelance web design and development as well as more esoteric projects in Node.js, React, React Native, Python, and PHP. I'm particularly interested in projects with collective, communal, political, and utopian angles, and will be happy to help out gratis on projects by and for disabled people, people of colour, and queer folk. [Send me an email](mailto:raphaelkabo@hey.com).
