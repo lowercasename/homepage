@@ -12,7 +12,7 @@
 
 ### Websites
 
-[Sweet](https://sweet.sh) is an experimental, utopian social network. It features directly democratic community management, inbuilt whisper network functionality, and no character limits. I'm [@lowercasename](https://sweet.sh/lowercasename). ([GitHub](https://github.com/lowercasename/sweet)). `Node.js, React Native, MongoDB`
+**Sweet** was an experimental, utopian social network. It featured directly democratic community management, inbuilt whisper network functionality, and an Android and iOS app. It ran from March 2019 to February 2022, and had over a thousand registered users. ([GitHub](https://github.com/lowercasename/sweet)). `Node.js, React Native, MongoDB`
 
 [Gathio](https://gath.io) is an easier and quicker way to make and share events that respects your privacy and doesn't keep your data longer than absolutely necessary. ([GitHub](https://github.com/lowercasename/gathio)). `Node.js, MongoDB`
 
