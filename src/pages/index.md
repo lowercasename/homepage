@@ -1,6 +1,6 @@
 I am a software engineer, academic, and poet.
 
-I live in London and work as a full stack dev at [The Guardian](https://github.com/guardian).
+I live in Cambridge, UK, and work as a full stack dev at [The Guardian](https://github.com/guardian).
 
 I believe in free and open access to knowledge, the creation of resilient communities, and the arrival of a post-capitalist utopia. Send me an email if you'd like to help.
 
