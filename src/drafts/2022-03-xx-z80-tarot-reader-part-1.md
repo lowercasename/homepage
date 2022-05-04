@@ -31,8 +31,8 @@ on building an 8-bit computer based on the 6502 processor from scratch, using
 breadboards and simple components. I discovered Eater's videos when I started
 trying to understand how computers worked from their most basic foundations.
 
-I wanted to recreate Eater's computer as soon as I saw it, but I didn't have
-a 6502 processor on hand. Fortuitously, I had recently acquired a broken ZX
+I wanted to recreate Eater's computer as soon as I saw it, but I didn't have a
+6502 processor on hand. Fortuitously, I had recently acquired a broken ZX
 Spectrum +2A, which used the [Zilog
 Z80](https://en.wikipedia.org/wiki/Zilog_Z80), an 8-bit processor of the same
 vintage. The case of the Spectrum became part of another project, but I kept the
@@ -41,8 +41,8 @@ perfectly. In short order, I found out that the Z80 DIY and homebrew computer
 scene was just as active as the 6502 scene, and with the help of many, many
 tutorials, began working on my own homebrew breadboard Z80.
 
-I knew that if I had any chance of creating something useable, I needed to
-give myself a clear goal. I decided to build a computer:
+I knew that if I had any chance of creating something useable, I needed to give
+myself a clear goal. I decided to build a computer:
 
 1. With a text-based display
 2. To which I could connect a PS/2 keyboard
@@ -54,20 +54,24 @@ And so, the design specification for Hex80, an 8-bit thaumo-computational
 interface, was born.
 
 This design spec is a little different from a lot of DIY and kit-based Z80
-computers out there, which often connect to the outside world through an RS-232
-serial interface, allowing them to run software like BASIC or CP/M. I wanted my
-computer to be completely standalone, and implement its own display and input.
-This is in many ways more difficult than implementing a serial interface!
-There's a reason why many early computers handed all the logic of talking to
-humans and showing them pretty things over to [dedicated
+computers out there, the end goal of which is to run software like BASIC or
+CP/M, and communicate with the outside world through an RS-232 interface. I
+wanted my computer to be completely standalone, and implement its own display
+and input. This is in many ways more difficult than implementing a serial
+interface! There's a reason why many early computers handed all the logic of
+talking to humans and showing them pretty things over to [dedicated
 terminals](https://en.wikipedia.org/wiki/Computer_terminal).
 
 I've now got relatively far through this spec, and in its current iteration,
 Hex80 can implement a console display on an LCD screen using a PS/2 keyboard,
 and respond to my commands. I haven't yet programmed the Tarot reader, and the
-second version of the Z80 I'm building uses an Arduino Mega to mock the clock,
-RAM, and ROM. The final version, however, will either not use an Arduino at all,
-or use one only to translate PS/2 keycodes into ASCII keycodes.
+second version of the Z80 I'm building uses an Arduino Mega to act as a bridge
+between the Z80 and the keyboard, and mock the clock, RAM, and ROM. The final
+version, however, will not use an Arduino at all, and instead use the Z80 SIO
+(Serial I/O) chip to interface directly with the PS/2 keyboard, and to provide
+serial communication with a serial terminal. This is mostly because I found out
+through extensive trial and error that the SIO does not work at the very slow
+clock speeds supplied by the Arduino.
 
 This will be a multi-part series of posts which will go through building Hex80
 from the bare bones. It won't be a complete introduction to the magical world of
