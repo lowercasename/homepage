@@ -24,8 +24,8 @@ I was very inspired by Julia Evans's posts on [tiny personal programs](https://j
 - Python
 - Docker, which is a utility which lets me run individual scripts as standalone
   containers, separate from the rest of my operating system. I'm not great at
-  Docker, but there are lots of good tutorials for it. You don't need to use it
-  - there's wasn't really any need to do so here except to avoid cluttering my
+  Docker, but there are lots of good tutorials for it. You don't need to use it - 
+  there's wasn't really any need to do so here except to avoid cluttering my
   Raspberry Pi with lots of little scripts. I won't remember how I started them 
   and where to go to fix them if they break. Don't let this happen to you!
 - A little server (a Raspberry Pi) to run a Docker container
@@ -54,10 +54,15 @@ list all the street addresses for the postcode I entered, along with their
 location IDs in the API that the council were using. The second was to get the
 bin times for one location ID.
 
+![A screenshot of Firefox developer tools showing two GET
+requests](/assets/binboop-1.png)
+
 Looking in the 'Response' tab for that request, I could see that it had all
 the data I needed: an array of collection times, and some other information. I
 now knew the URL I needed to use to get this data, and very luckily for me, it
 didn't require any kind of authentication, like a cookie - just a location ID.
+
+![A screenshot of Firefox developer tools showing the JSON response for a GET request](/assets/binboop-2.png)
 
 ## Writing a Python program
 
@@ -140,7 +145,7 @@ file that keeps environment variables, and doesn't get uploaded to GitHub!
 LOCATION_ID=1234567890
 ```
 
-To read this file, I needed a new library: [https://pypi.org/project/python-dotenv/](python-dotenv).
+To read this file, I needed a new library: [python-dotenv](python-dotenv).
 
 ```
 pip3 install python-dotenv
@@ -169,7 +174,8 @@ will let me convert the API's descriptions of bin collection types, on the left,
 into something a bit friendlier, on the right.
 
 Now I was ready to try and access the API. But wait! I needed two more libraries to do
-that! Back to pip:
+that - [requests](https://pypi.org/project/requests/) to handle web API requests and
+responses, and [python-dateutil](https://dateutil.readthedocs.io/en/stable/) to handle dates a bit better than the standard Python date library! Back to pip:
 
 ```
 pip3 install requests dateutil
