@@ -60,7 +60,8 @@ requests](/assets/binboop-1.png)
 Looking in the 'Response' tab for that request, I could see that it had all
 the data I needed: an array of collection times, and some other information. I
 now knew the URL I needed to use to get this data, and very luckily for me, it
-didn't require any kind of authentication, like a cookie - just a location ID.
+didn't require any kind of authentication, like a cookie. All it needed was 
+a location ID.
 
 ![A screenshot of Firefox developer tools showing the JSON response for a GET request](/assets/binboop-2.png)
 
@@ -137,7 +138,7 @@ Next, it was time to actually check my API. But to do that, I needed to store a
 secret - the location ID of my house. I wanted to upload this program to GitHub,
 and I didn't want secret codes and tokens to become public! So I borrowed a
 technique that's used a lot in Node.js programming - an .env file. This is a
-file that keeps environment variables, and doesn't get uploaded to GitHub!
+file that keeps environment variables, and doesn't get uploaded to GitHub.
 
 ```
 # .env
@@ -178,10 +179,10 @@ that - [requests](https://pypi.org/project/requests/) to handle web API requests
 responses, and [python-dateutil](https://dateutil.readthedocs.io/en/stable/) to handle dates a bit better than the standard Python date library! Back to pip:
 
 ```
-pip3 install requests dateutil
+pip3 install requests python-dateutil
 ```
 
-Finally, I added the call to requests to my function:
+Finally, I added the call to `requests` to my function:
 
 ```
 ...
@@ -217,7 +218,7 @@ Here, I use `requests.get` to get the response of the API URL. I parse it as
 JSON, and then pull the date and collection type out of the first collection in
 the list (the one with the index 0).
 
-To get the collection time, I used `dateutil.parser.parser`, which will try and
+To get the collection time, I used `dateutil.parser.parse()`, which will try and
 turn a string into a Python date object. In this case, the date was well
 formatted, so the parser had no trouble. I only needed the date section of the
 date, not the time, so I added `.date()` at the end.
