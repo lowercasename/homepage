@@ -17,17 +17,17 @@ body > header {
   justify-content: space-between;
   align-items: flex-start;
   flex-direction: column;
-  position: sticky;
   top: 0;
   padding: 40px 0 20px;
   background: rgba(255, 255, 255, 0.95);
   z-index: 100;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 960px) {
   body > header {
     flex-direction: row;
     align-items: center;
+    position: sticky;
   }
 }
 
@@ -159,7 +159,7 @@ table {
    white-space: nowrap;
  }
  
- @media (min-width:768px) {
+ @media (min-width:960px) {
   th, td {
    white-space: normal;
   }
