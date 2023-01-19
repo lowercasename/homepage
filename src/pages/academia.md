@@ -2,10 +2,14 @@
 
 My academic work examines the manifestations of utopia, the commons, and precarity in contemporary culture, with a particular interest in post-2008 poetry, novels, and speculative fiction, and cultural production within contemporary global activist movements.
 
-In 2020 I finished writing my PhD dissertation at [Birkbeck, University of London](http://www.bbk.ac.uk/arts/research/research-students/english-and-humanities/Raphael-Kabo).
+In 2020 I finished writing my PhD dissertation at Birkbeck, University of London. My first book, [_Utopia Beyond Capitalism in Contemporary Literature_](https://www.bloomsbury.com/uk/utopia-beyond-capitalism-in-contemporary-literature-9781350288553/), came out in 2023.
 
 ![Photograph of me presenting my paper 'The Utopian Body in Contemporary Literatures of Crisis' at BACLS 2018, Loughborough University, UK](/assets/BACLS-2018.jpg)
 _Photograph by Carly Marie Robinson ([@carlymarierobbbo](https://twitter.com/carlymarierobbo))_
+
+### Beyond Gender Research Collective
+
+I am a co-founder of the non-hierarchical research collective [Beyond Gender](https://beyondgender.space/), an ongoing experiment in collaborative writing, close reading, and theorising about the possibilities of science fiction.
 
 ### Utopian Acts 2018
 
@@ -16,6 +20,7 @@ _Photograph by Daniel Jackery_
 
 ### Books
 
+- [_Utopia Beyond Capitalism in Contemporary Literature: A Commons Poetics_](https://www.bloomsbury.com/uk/utopia-beyond-capitalism-in-contemporary-literature-9781350288553/), London: Bloomsbury Academic, 2023.
 - [Imagining the End of Capitalism: Utopia and the Commons in Contemporary Literature](https://eprints.bbk.ac.uk/id/eprint/45810/), PhD dissertation, Birkbeck, University of London (2020).
 
 ### Essays and chapters
@@ -44,7 +49,7 @@ _Photograph by Daniel Jackery_
 - "'Life! Life! Life!': The Precarious Utopianism of Kim Stanley Robinson's _New York 2140_." Disruption, Displacement, and Disorder: 43rd Society for Utopian Studies Conference, November 2018, University of California Berkeley.
 - "The Utopian Body in Contemporary Literatures of Crisis." British Association of Contemporary Literary Studies - What Happens Now, July 2018, Loughborough University.
 - "'It's All Good, It's All Fucked': The Anti-Capitalist Commons in Contemporary Poetry." Movements: Protest, Politics and Activism in the Twenty-First Century, July 2018, Nottingham Contemporary.
-- "Lines of Flight: The Utopian Escape in Contemporary Speculative Literature." Utopia, _Now_!, August 2017, Chelsea College of Arts, London. (<a href="https://archive.org/details/UtopiaNow2017/10UtopianowDay3CarolineEdwardsRaphaelKabo.mp3">Audio</a>)
+- "Lines of Flight: The Utopian Escape in Contemporary Speculative Literature." Utopia, _Now_!, August 2017, Chelsea College of Arts, London. ([Audio](https://archive.org/details/UtopiaNow2017/10UtopianowDay3CarolineEdwardsRaphaelKabo.mp3))
 - "Troubled Solidarity, Precarious Utopias." Solidarity and Utopia: 18th Utopian Studies Society Conference, July 2017, Gdańsk, Poland.
 - "The Snow and the Zone: Creating _communitas_ on the thresholds of sf cinema." CRSF 2017, June 2017, University of Liverpool.
 - "Occupy the Threshold: Locating occupation protests in liminal space." Crossing Borders: Negotiation, Provocation, and Transgression, May 2017, Birkbeck, University of London.
